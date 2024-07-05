@@ -2,11 +2,13 @@
   "name": "react-template",
   "version": "1.0.0",
   "scripts": {
+    "build:server": "farm build --config farm.config.server.mjs",
     "dev": "farm start",
     "start": "farm start",
-    "watch": "farm watch --config farm.config.server.mjs",
     "build": "farm build",
     "preview": "node server.js",
+    "pressg": "npm run build:server && npm run build",
+    "ssg": "node ssg.js",
     "clean": "farm clean"
   },
   "dependencies": {

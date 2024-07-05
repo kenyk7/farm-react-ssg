@@ -7,7 +7,7 @@ This template should help you start developing using React and TypeScript in Far
 Install the dependencies:
 
 ```bash
-pnpm install
+yarn install
 ```
 
 ## Get Started
@@ -15,23 +15,23 @@ pnpm install
 Start the dev server:
 
 ```bash
-pnpm start
+yarn start
 ```
 
 Build the app for production:
 
 ```bash
-pnpm build
+yarn build
 ```
 
 Preview the Production build product:
 
 ```bash
-pnpm preview
+yarn preview
 ```
 
 Clear persistent cache local files
 
 ```bash
-pnpm clean
+yarn clean
 ```

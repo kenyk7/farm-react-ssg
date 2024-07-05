@@ -4,13 +4,16 @@
   "scripts": {
     "dev": "farm start",
     "start": "farm start",
+    "watch": "farm watch --config farm.config.server.mjs",
     "build": "farm build",
-    "preview": "farm preview",
+    "preview": "node server.js",
     "clean": "farm clean"
   },
   "dependencies": {
+    "express": "^4.19.2",
     "react": "18",
-    "react-dom": "18"
+    "react-dom": "18",
+    "react-router-dom": "^6.24.1"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
@@ -19,7 +22,7 @@
     "@farmfe/plugin-react": "^1.1.0",
     "@types/react": "18",
     "@types/react-dom": "18",
-    "core-js": "^3.36.1",
+    "core-js": "^3.37.1",
     "react-refresh": "^0.14.0"
   }
 }
